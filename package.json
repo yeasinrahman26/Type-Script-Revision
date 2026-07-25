@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "ts": "^0.2.2"
+  },
+  "name": "typescript-chai-with-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  },
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "npx tsc --watch",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeasinrahman26/Type-Script-Revision.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yeasinrahman26/Type-Script-Revision/issues"
+  },
+  "homepage": "https://github.com/yeasinrahman26/Type-Script-Revision#readme"
+}
