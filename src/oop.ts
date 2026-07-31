@@ -84,4 +84,27 @@ class EKChai{
 }
 console.log(EKChai.shopName) 
 
-// last time stamp  3 hour 15 m 
+abstract class Drink {
+  abstract make():void
+  
+}
+
+class MyChai extends Drink{
+  make(){
+    console.log("Brewing Chai")
+  }
+}
+
+// composition 
+
+class Heater {
+  heat(){}
+}
+
+class ChaiMaker{
+  constructor(private heater:Heater){}
+
+  make(){
+    this.heater.heat
+  }
+}
